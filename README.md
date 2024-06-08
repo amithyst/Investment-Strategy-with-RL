@@ -154,7 +154,6 @@ Set the start and end dates for the backtest.
 <img src="images/run_cta/main.png" width="70%" alt="Main Interface">
 
 ### Backtest Results
-AC LSTM Strategy
 <img src="images/run_cta/AC_LSTM_Strategy.png" width="70%" alt="AC LSTM Strategy">
 
 ### Kalman Filter Strategy
@@ -168,6 +167,8 @@ AC LSTM Strategy
 
 ## Conclusion
 In conclusion, while default strategies like AtrRsiStrategy and TurtleSignalStrategy hovered around 0% returns, the Kalman Filter strategy achieved an annual return of 20%, and the LSTM Actor-Critic model demonstrated even more impressive results.
+
+Browse the [21300180048杜楷劼_程序设计_期末大作业.pdf](./doc/21300180048杜楷劼_程序设计_期末大作业.pdf) for more details.
 
 ## Reference
 
