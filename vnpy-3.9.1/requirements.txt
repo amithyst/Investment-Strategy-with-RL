@@ -15,3 +15,6 @@ tqdm==4.66.2
 vnpy_ctastrategy
 vnpy_ctabacktester
 vnpy_sqlite
+vnpy_rpcservice
+vnpy_scripttrader
+vnpy_datamanager

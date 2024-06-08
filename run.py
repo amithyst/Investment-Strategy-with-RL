@@ -6,6 +6,10 @@ from vnpy_ctp import CtpGateway
 from vnpy_ctastrategy import CtaStrategyApp
 from vnpy_ctabacktester import CtaBacktesterApp
 
+# 写在顶部
+from vnpy_datamanager import DataManagerApp
+
+
 
 def main():
     """Start VeighNa Trader"""
@@ -17,6 +21,10 @@ def main():
     main_engine.add_gateway(CtpGateway)
     main_engine.add_app(CtaStrategyApp)
     main_engine.add_app(CtaBacktesterApp)
+
+    # 写在创建main_engine对象后
+    main_engine.add_app(DataManagerApp)
+
 
     main_window = MainWindow(main_engine, event_engine)
     main_window.showMaximized()
